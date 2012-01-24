@@ -1,0 +1,60 @@
+<class cl="TaskerData" sr="">
+	<tv>1.2u2m</tv>
+	<class cl="Project" sr="proj0">
+		<name>Amazon Appstore</name>
+		<tids>2</tids>
+	</class>
+	<class cl="Task" sr="task2">
+		<id>2</id>
+		<nme>Amazon Appstore Purge Cache</nme>
+		<class cl="Action" sr="act0" ve="3">
+			<code>412</code>
+			<class cl="StringArg" sr="arg0" ve="3">
+				<val>Android/data/com.amazon.venezia/cache</val>
+			</class>
+			<class cl="StringArg" sr="arg1" ve="3">
+				<val></val>
+			</class>
+			<class cl="IntArg" sr="arg2">
+				<val>0</val>
+			</class>
+			<class cl="StringArg" sr="arg3" ve="3">
+				<val>%AMAZONLIST</val>
+			</class>
+		</class>
+		<class cl="Action" sr="act1" ve="3">
+			<code>39</code>
+			<class cl="StringArg" sr="arg0" ve="3">
+				<val>%AMAZONAPK</val>
+			</class>
+			<class cl="StringArg" sr="arg1" ve="3">
+				<val>%AMAZONLIST()</val>
+			</class>
+		</class>
+		<class cl="Action" sr="act2" ve="3">
+			<code>406</code>
+			<class cl="StringArg" sr="arg0" ve="3">
+				<val>%AMAZONAPK</val>
+			</class>
+			<class cl="IntArg" sr="arg1">
+				<val>0</val>
+			</class>
+		</class>
+		<class cl="Action" sr="act3" ve="3">
+			<code>40</code>
+		</class>
+		<class cl="Action" sr="act4" ve="3">
+			<code>548</code>
+			<class cl="StringArg" sr="arg0" ve="3">
+				<val>Amazon App Store Cache Purged!</val>
+			</class>
+			<class cl="IntArg" sr="arg1">
+				<val>1</val>
+			</class>
+		</class>
+		<class cl="AppIcon" sr="icn" ve="2">
+			<nme>icon_trash_small</nme>
+			<pkg>net.dinglisch.android.taskerm</pkg>
+		</class>
+	</class>
+</class>
